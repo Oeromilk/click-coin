@@ -1,0 +1,51 @@
+body {
+  background-color: lightsteelblue;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.heading {
+  align-items: center;
+}
+
+.heading h3 {
+  text-align: center;
+}
+
+.current-difficulty {
+  text-align: center;
+}
+
+.diff-span {
+
+}
+
+.previous-difficulty {
+  text-align: center;
+}
+
+.coins-earned {
+  text-align: center;
+}
+
+.coins-span {
+
+}
+
+.click-zone {
+  background-color: lightslategray;
+  height: 50vh;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  cursor: pointer;
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+.click-zone:active {
+  -webkit-box-shadow: -1px 1px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: -1px 1px 10px 0px rgba(0,0,0,0.75);
+}
