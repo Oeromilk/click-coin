@@ -30,7 +30,6 @@ function calculateDiff() {
   blockInfo.currentDiff = Math.round(newDiff);
   difficultyElement.innerText = blockInfo.currentDiff;
   pDifficultyElement.innerText = blockInfo.previousDiff;
-  console.log(blockInfo.previousDiff, blockInfo.currentDiff);
 }
 
 function halfReward() {
